@@ -1,0 +1,16 @@
+{
+	"name": "shin test",
+	"description": "Start test Extention",
+	"version": "0.1",
+	"permissions": [
+		"tabs"
+	],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"browser_action": {
+	},
+	
+	"manifest_version": 2
+}

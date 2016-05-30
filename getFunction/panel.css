@@ -1,0 +1,42 @@
+
+/*ul {
+	display:inline;
+	padding:0px;
+	margin:0px;
+	background:#F00;
+	text-align: center;
+}
+
+.root {
+	float:left;
+	list-style:none;
+	margin:1px;
+	padding:0px 0px 0px 0px;
+	position: relative;
+
+	height:20px;
+}
+.child {
+	height:20px;
+}
+
+li {
+	list-style:none;
+	margin:0; 
+	float:left;
+}
+
+.root ul {
+	display:none;
+	position:absolute;
+	left:0px;
+	top:20px;
+}
+
+.root:hover ul {
+	display:block;
+}
+
+.root:hover, .child:hover {
+	background-color:#BDBDBD;
+}*/

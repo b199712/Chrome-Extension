@@ -1,0 +1,23 @@
+{
+	"name": "shin test",
+	"description": "Start test Extention",
+	"version": "0.1",
+	"background":{
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"permissions": [
+		"tabs"
+	],
+	"content_scripts":[{
+		"matches":["http://*/*"],
+		"js":["script.js", "jquery.js"]
+	}],
+	"devtools_page": "devtools.html",
+	"manifest_version": 2,
+	"web_accessible_resources":
+    [
+      "*"
+    ]
+
+}
